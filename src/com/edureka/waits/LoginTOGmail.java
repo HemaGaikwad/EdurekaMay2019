@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginTOGmail {
 
-public static WebDriver driver=null;							//Declaration
+public static WebDriver driver=null;	
 public static WebDriverWait wait = null;
 	
 	public static void main(String[] args)
@@ -54,6 +54,7 @@ public static WebDriverWait wait = null;
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		
 		driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
+	
 	}
 
 }
