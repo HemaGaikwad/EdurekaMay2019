@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Task created successfully]]>
+    </line>
+    <line>
+      <![CDATA[User created successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="SeleniumProject" duration-ms="161" started-at="2019-06-15T16:44:53Z" finished-at="2019-06-15T16:44:53Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="TaskModuleScripts.createTask()[pri:0, instance:com.edureka.testng.TaskModuleScripts@36d4b5c]" name="createTask" class="com.edureka.testng.TaskModuleScripts"/>
+        <method signature="UserModuleScripts.createUser()[pri:0, instance:com.edureka.testng.UserModuleScripts@5034c75a]" name="createUser" class="com.edureka.testng.UserModuleScripts"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Regression" duration-ms="161" started-at="2019-06-15T16:44:53Z" finished-at="2019-06-15T16:44:53Z">
+      <class name="com.edureka.testng.TaskModuleScripts">
+        <test-method status="PASS" signature="createTask()[pri:0, instance:com.edureka.testng.TaskModuleScripts@36d4b5c]" name="createTask" duration-ms="41" started-at="2019-06-15T16:44:53Z" finished-at="2019-06-15T16:44:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Task created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+      </class> <!-- com.edureka.testng.TaskModuleScripts -->
+      <class name="com.edureka.testng.UserModuleScripts">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.edureka.testng.UserModuleScripts@5034c75a]" name="createUser" duration-ms="13" started-at="2019-06-15T16:44:53Z" finished-at="2019-06-15T16:44:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- com.edureka.testng.UserModuleScripts -->
+    </test> <!-- Regression -->
+  </suite> <!-- SeleniumProject -->
+</testng-results>
