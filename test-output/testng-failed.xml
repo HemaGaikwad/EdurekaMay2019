@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [SeleniumProject]">
   <test thread-count="5" name="Regression(failed)">
     <classes>
-      <class name="com.edureka.testng.UserModuleScripts">
+      <class name="com.edureka.testng.AssertionDemo">
         <methods>
-          <include name="editUser"/>
-          <include name="createUser"/>
-          <include name="deleteUser"/>
+          <include name="loginToGmail" invocation-numbers="0"/>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
         </methods>
-      </class> <!-- com.edureka.testng.UserModuleScripts -->
+      </class> <!-- com.edureka.testng.AssertionDemo -->
     </classes>
   </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [SeleniumProject] -->

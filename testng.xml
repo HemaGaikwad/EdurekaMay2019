@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SeleniumProject">
-  <test  name="Regression">
-  <!--   <groups>
-	  <run>
-	  			<include name="Smoke"></include>
-	  </run>
-  </groups>
-   -->
+<!-- <parameter name = "browser" value = "chrome"></parameter>
+  <test  name="chromeTest">
   <classes>
-   <class name="com.edureka.testng.TaskModuleScripts"></class>
-  <class name ="com.edureka.testng.UserModuleScripts"></class>
- 
+   <class name="com.edureka.testng.LoginToGmail"></class> 
+  </classes>
+  </test> Regression
+  
+  
+  <parameter name = "browser" value = "firefox"></parameter> -->
+  
+  <test  name="Regression">
+  <classes>
+   <class name="com.edureka.testng.AssertionDemo"></class> 
   </classes>
   </test> <!-- Regression -->
 </suite> <!-- SeleniumProject -->
