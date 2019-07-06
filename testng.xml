@@ -13,7 +13,7 @@
   
   <test  name="Regression">
   <classes>
-   <class name="com.edureka.testng.AssertionDemo"></class> 
+   <class name="com.edureka.thirdpartytools.LoginToFacebookUsingSikuli"></class> 
   </classes>
   </test> <!-- Regression -->
 </suite> <!-- SeleniumProject -->

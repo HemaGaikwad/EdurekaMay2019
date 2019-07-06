@@ -2,36 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SeleniumProject" duration-ms="48304" started-at="2019-06-16T16:18:40Z" finished-at="2019-06-16T16:19:29Z">
+  <suite name="SeleniumProject" duration-ms="76158" started-at="2019-07-06T17:26:22Z" finished-at="2019-07-06T17:27:38Z">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="48304" started-at="2019-06-16T16:18:40Z" finished-at="2019-06-16T16:19:29Z">
-      <class name="com.edureka.testng.AssertionDemo">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.edureka.testng.AssertionDemo@4520ebad]" name="launchApp" is-config="true" duration-ms="21430" started-at="2019-06-16T16:18:40Z" finished-at="2019-06-16T16:19:02Z">
+    <test name="Regression" duration-ms="76158" started-at="2019-07-06T17:26:22Z" finished-at="2019-07-06T17:27:38Z">
+      <class name="com.edureka.thirdpartytools.LoginToFacebookUsingSikuli">
+        <test-method status="PASS" signature="loginToFacebook()[pri:0, instance:com.edureka.thirdpartytools.LoginToFacebookUsingSikuli@7f9a81e8]" name="loginToFacebook" duration-ms="76066" started-at="2019-07-06T17:26:22Z" finished-at="2019-07-06T17:27:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="loginToGmail(java.lang.String, java.lang.String)[pri:0, instance:com.edureka.testng.AssertionDemo@4520ebad]" name="loginToGmail" duration-ms="25163" started-at="2019-06-16T16:19:02Z" data-provider="getData" finished-at="2019-06-16T16:19:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[seleniumedureka@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Apple12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToGmail -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.edureka.testng.AssertionDemo@4520ebad]" name="closeApp" is-config="true" duration-ms="1548" started-at="2019-06-16T16:19:27Z" finished-at="2019-06-16T16:19:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- com.edureka.testng.AssertionDemo -->
+        </test-method> <!-- loginToFacebook -->
+      </class> <!-- com.edureka.thirdpartytools.LoginToFacebookUsingSikuli -->
     </test> <!-- Regression -->
   </suite> <!-- SeleniumProject -->
 </testng-results>
